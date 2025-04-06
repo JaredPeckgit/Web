@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
-    <script src="https://unpkg.com/gridjs-jquery/dist/gridjs.production.min.js"></script>
+    <meta charset="UTF-8">
     <title>Game Hub</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
+    <script src="./js/getGames.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" />
+    <link rel="stylesheet" href="./stylesheets/hometheme.css" />    
 </head>
 <body>
     <h1>Welcome to Game Hub!</h1>
@@ -14,6 +16,7 @@
         <a href="add.html">Add Game</a> |
         <a href="edit.html">Edit Game</a>
     </nav>
+    <div id="grid-container"></div>
     <p>Pick an option above to get started!</p>
 </body>
 </html>
